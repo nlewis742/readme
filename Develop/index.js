@@ -55,6 +55,16 @@ inquirer
         message: 'Provide usage information.'
     },
     {
+        name: 'contribute',
+        type: 'input',
+        message: 'How to contribute to this project?'
+    },
+    {
+        name: 'tests',
+        type: 'input',
+        message: 'What tests are involved in this project?'
+    },
+    {
         name: 'questions',
         type: 'input',
         message: 'How can someone contact you with questions?'
@@ -72,7 +82,7 @@ inquirer
 ])
 .then((data) => {
     function createReadme() {
-     fs.writeFile('README.md', docContent, (err) => {
+     fs.writeFile('sample_README.md', docContent, (err) => {
     if (err) {
         console.log(err);
     }else {
@@ -86,13 +96,13 @@ const docContent = `
 
 ## Table of Contents
 
--[Description](#description)
--[Installation](#installation)
--[Usage](#usage)
--[Contibute](#contribute)
--[Tests](#tests)
--[Questions](#questions)
--[License](#license)
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contibute](#contribute)
+- [Tests](#tests)
+- [Questions](#questions)
+- [License](#license)
 
 ## Description
 
