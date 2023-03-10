@@ -32,7 +32,7 @@ inquirer
     {
         name: 'install',
         type: 'input',
-        message: 'Are there any installation instructions?'
+        message: 'What are the installation instructions?'
     },
     {
         name: 'usage',
@@ -42,7 +42,17 @@ inquirer
     {
         name: 'questions',
         type: 'input',
-        message: 'How to contact you with questions?'
+        message: 'How can someone contact you with questions?'
+    },
+    {
+        name: 'username',
+        type: 'input',
+        message: 'What is your github username?'
+    },
+    {
+        name: 'email',
+        type: 'input',
+        message: 'What is your buisness email?'
     }
 ])
 .then((data) => {
@@ -57,11 +67,11 @@ inquirer
 }
 const readME = 'README.md';
 const docContent = `
-# Timed-Code-Quiz
+# ${data.title}
 
 ## Description
 
- ${data.title} to assess your knowledge of Java (currently unfinished so the Questions are all over the place)
+ ${data.description}
 
 ## Image
 

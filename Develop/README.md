@@ -1,10 +1,10 @@
 
-# Timed-Code-Quiz
+# Project Cool
 
 ## Description
 
- My Project to assess your knowledge of Java (currently unfinished so the Questions are all over the place)
-
+ This is my description heya
+ 
 ## Image
 
 ![alt text](./Assets/nlewis742.github.io_timed-code-quiz_.png)
