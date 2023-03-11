@@ -15,11 +15,6 @@
 
 
 
-// WHEN I choose a license for my application from a list of options
-// THEN a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under
-
-
-
 const inquirer = require('inquirer');
 const fs = require('fs');
 
@@ -90,7 +85,11 @@ inquirer
 }
 const readME = 'README.md';
 const docContent = `
+
+
 # ${data.title}
+
+[![License](https://img.shields.io/badge/License-${data.license}-green.svg)](https://opensource.org/licenses/${data.license})
 
 ## Table of Contents
 
@@ -109,7 +108,7 @@ const docContent = `
 
 ## Installation
 
-${data.installation}
+${data.install}
 
 ## Usage
 
@@ -121,7 +120,7 @@ ${data.contribute}
 
 ## License
 
-${data.license}
+[${data.license} license](https://opensource.org/licenses/${data.license})
 
 ## Tests
 

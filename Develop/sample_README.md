@@ -1,5 +1,9 @@
 
-# jdfksjf
+
+
+# Readme Generator
+
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 ## Table of Contents
 
@@ -13,34 +17,34 @@
 
 ## Description
 
- sdjflksj
+ Generates a professional README.md file
 
 
 ## Installation
 
-undefined
+node.js and inquirer are required
 
 ## Usage
 
-sjdkljl
+public
 
 ## Contribute
 
-jksldj
+NA
 
 ## License
 
-MIT
+[MIT license](https://opensource.org/licenses/MIT)
 
 ## Tests
 
-kjdksf
+NA
 
 ## Questions
 
-If you have questions you can reach me at jdkfl.
+If you have questions you can reach me at fake@email.com.
 
 
-You can also see more of my projects at https://github.com/jljsd.
+You can also see more of my projects at https://github.com/fakegithub name.
 
 
